@@ -1,9 +1,9 @@
 package vivant;
 
 public class Personne {
-    private int id_Personne;
-    private String nom_Personne;
-    private int budget_Personne;
+    int id_Personne;
+    String nom_Personne;
+    int budget_Personne;
     
     public Personne(int id_Personne, String nom_Personne, int budget_Personne) {
         this.id_Personne = id_Personne;
