@@ -1,9 +1,9 @@
-package dentiste;
+package utile;
 
 public class Etape {
-    int id_Etape;
-    String nom_Etape;
-    int prix_Unitaire;
+    public int id_Etape;
+    public String nom_Etape;
+    public int prix_Unitaire;
     
     public Etape(int id_Etape, String nom_Etape, int prix_Unitaire) {
         this.id_Etape = id_Etape;

@@ -1,10 +1,10 @@
-package dentiste;
+package utile;
 
 public class Priorite {
-    int id_Priorite;
-    int id_Personne;
-    int id_TypePriorite;
-    int id_Etape;
+    public int id_Priorite;
+    public int id_Personne;
+    public int id_TypePriorite;
+    public int id_Etape;
     
     public Priorite(int id_Priorite, int id_Personne, int id_TypePriorite, int id_Etape) {
         this.id_Priorite = id_Priorite;

@@ -1,9 +1,9 @@
-package vivant;
+package utile;
 
 public class Personne {
-    int id_Personne;
-    String nom_Personne;
-    int budget_Personne;
+    public int id_Personne;
+    public String nom_Personne;
+    public int budget_Personne;
     
     public Personne(int id_Personne, String nom_Personne, int budget_Personne) {
         this.id_Personne = id_Personne;

@@ -1,9 +1,9 @@
-package vivant; 
+package utile; 
 
 public class Teeth {
-    int id_Teeth;
-    String id_TypeTeeth;
-    int numero_Teeth;
+    public int id_Teeth;
+    public String id_TypeTeeth;
+    public int numero_Teeth;
     
     public Teeth(int id_Teeth, String id_TypeTeeth, int numero_Teeth) {
         this.id_Teeth = id_Teeth;
